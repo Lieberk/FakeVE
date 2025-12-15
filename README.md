@@ -10,4 +10,4 @@ Multimodal fake news videos are difficult to interpret because they require comp
 - **Contrived Absurdity (CA)**: News video, audio, and titles are consistent in their multimodal content, but the overall message defies basic common sense or logic.
 
 ## Data Acquisition
-If you would like to access the FakeTT dataset, please fill out this [Application Form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__ibfO5VUM09RNFA5VjJaUlRPOVY3U0NKMFBKUE9MMi4u). The download link will be sent to you once the form is accepted.
+If you would like to access the FakeVE dataset, please fill out this [Application Form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__ibfO5VUM09RNFA5VjJaUlRPOVY3U0NKMFBKUE9MMi4u). The download link will be sent to you once the form is accepted.
