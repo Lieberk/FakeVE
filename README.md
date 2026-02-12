@@ -1,6 +1,5 @@
-Multimodal Fake News Video Explanation: Dataset, Model and Evaluation
-
-Multimodal fake news videos are difficult to interpret because they require comprehensive consideration of the correlation and consistency between multiple modes. Existing methods deal with fake news videos as a classification problem, but it's not clear why news videos are identified as fake. Without proper explanation, the end user may not understand the underlying meaning of the falsehood. Therefore, we propose a new problem - Fake news video Explanation (FNVE) - given a multimodal news post containing a video and title, our goal is to generate natural language explanations to reveal the falsity of the news video. To that end, we developed FakeVE, a new dataset of 2,672 fake news video posts that can definitively explain four real-life fake news video aspects. In order to understand the characteristics of fake news video explanation, we conducted an exploratory analysis of FakeVE from different perspectives.
+## Abstract:
+While social media platforms facilitate information access, fake news videos pose serious societal risks. Most detection methods treat fake news as a binary classification problem, ignoring the unique deceptive patterns of each fake item. To address this, we introduce the Fake News Video Explanation (FNVE) task, which generates natural language explanations for fake news videos. To support this, we developed FakeVE, a new dataset comprising 2,672 fake news video posts, which provides explicit explanations for four real-world deceptive aspects of fake news videos. Furthermore, we introduce a Multimodal Relation Graph Transformer (MRGT) model, which achieves state-of-the-art performance on FakeVE, outperforming strong baselines by up to +8.2\% in BLEU-4 and +12.3\% in ROUGE-L. Our work provides the first systematic benchmark for explainable fake news video analysis.
 
 ## Aspect Inclusion:
 
@@ -25,3 +24,15 @@ Multimodal fake news videos are difficult to interpret because they require comp
 
 ## Data Acquisition
 If you would like to access the FakeVE dataset, please fill out this [Application Form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__ibfO5VUM09RNFA5VjJaUlRPOVY3U0NKMFBKUE9MMi4u). The download link will be sent to you once the form is accepted.
+
+
+## Citation
+If you find our research helpful, please cite the following:
+ ```
+@article{chen2025multimodal,
+  title={Multimodal Fake News Video Explanation: Dataset, Analysis and Evaluation},
+  author={Chen, Lizhi and Qian, Zhong and Li, Peifeng and Zhu, Qiaoming},
+  journal={arXiv preprint arXiv:2501.08514},
+  year={2025}
+}
+  ```
