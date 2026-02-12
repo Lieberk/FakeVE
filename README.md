@@ -1,4 +1,4 @@
-Multimodal Fake News Video Explanation: Dataset, Analysis and Evaluation
+Multimodal Fake News Video Explanation: Dataset, Model and Evaluation
 
 Multimodal fake news videos are difficult to interpret because they require comprehensive consideration of the correlation and consistency between multiple modes. Existing methods deal with fake news videos as a classification problem, but it's not clear why news videos are identified as fake. Without proper explanation, the end user may not understand the underlying meaning of the falsehood. Therefore, we propose a new problem - Fake news video Explanation (FNVE) - given a multimodal news post containing a video and title, our goal is to generate natural language explanations to reveal the falsity of the news video. To that end, we developed FakeVE, a new dataset of 2,672 fake news video posts that can definitively explain four real-life fake news video aspects. In order to understand the characteristics of fake news video explanation, we conducted an exploratory analysis of FakeVE from different perspectives.
 
