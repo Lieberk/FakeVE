@@ -1,5 +1,5 @@
 ## Abstract:
-While social media platforms facilitate information access, fake news videos pose serious societal risks. Most detection methods treat fake news as a binary classification problem, ignoring the unique deceptive patterns of each fake item. To address this, we introduce the Fake News Video Explanation (FNVE) task, which generates natural language explanations for fake news videos. To support this, we developed FakeVE, a new dataset comprising 2,672 fake news video posts, which provides explicit explanations for four real-world deceptive aspects of fake news videos. Furthermore, we introduce a Multimodal Relation Graph Transformer (MRGT) model, which achieves state-of-the-art performance on FakeVE, outperforming strong baselines by up to +8.2\% in BLEU-4 and +12.3\% in ROUGE-L. Our work provides the first systematic benchmark for explainable fake news video analysis.
+While social media platforms facilitate information access, fake news videos pose serious societal risks. Most detection methods treat fake news as a binary classification problem, ignoring the unique deceptive patterns of each fake item. To address this, we introduce the Fake News Video Explanation (FNVE) task, which generates natural language explanations for fake news videos. To support this, we develop FakeVE, a new dataset comprising 2672 fake news video posts, which provides explicit explanations for four real-world deceptive aspects of fake news videos. Furthermore, we propose a Multimodal Relation Graph Transformer (MRGT) model that explicitly models intra- and inter-modal inconsistencies via graph reasoning. Extensive experiments demonstrate that MRGT achieves state-of-the-art performance on FakeVE, outperforming strong baselines including recent Multimodal Large Language Models by up to +1.36 in BLEU-4 and +8.80 in ROUGE-L. Our work provides the first systematic benchmark for generating explanations for false news video, and highlights the importance of specialized architectures for this task. 
 
 ## Aspect Inclusion:
 
@@ -29,10 +29,14 @@ If you would like to access the FakeVE dataset, please fill out this [Applicatio
 ## Citation
 If you find our research helpful, please cite the following:
  ```
-@article{chen2025multimodal,
-  title={Multimodal Fake News Video Explanation: Dataset, Analysis and Evaluation},
+@article{chen2026multimodal,
+  title={Multimodal fake news video explanation: Dataset, model and evaluation},
   author={Chen, Lizhi and Qian, Zhong and Li, Peifeng and Zhu, Qiaoming},
-  journal={arXiv preprint arXiv:2501.08514},
-  year={2025}
+  journal={Information Processing \& Management},
+  volume={63},
+  number={6},
+  pages={104769},
+  year={2026},
+  publisher={Elsevier}
 }
   ```
